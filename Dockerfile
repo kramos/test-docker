@@ -1,6 +1,6 @@
 #FROM ruby:2.2.3-slim
 FROM ruby:2.2.3
-MAINTAINER mark.rendell@accenture.com
+MAINTAINER markosrendell@gmail.com
 
 ENV SERVERSPEC_VERSION 2.17.1
 ENV DOCKERAPI_VERSION 1.22.4

@@ -33,5 +33,7 @@ describe "Container" do
       @container.kill
       @container.delete(:force => true)
     end
+
   end
+
 end

@@ -1,0 +1,15 @@
+testdocker:
+  image: kramos/test-docker
+  container_name: testdocker 
+  environment:
+   - CONTNAME=testdocker
+  volumes:
+   - ./tests/:/tests/:ro
+   - .:/docker-file/:ro
+   - /var/run/docker.sock:/var/run/docker.sock
+lintdocker:
+  image: projectatomic/dockerfile-lint
+  volumes:
+   - .:/root/:ro
+  command:
+   dockerfile_lint -f Dockerfile

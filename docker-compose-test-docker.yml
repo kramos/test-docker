@@ -1,8 +1,8 @@
-testdocker:
-  image: kramos/test-docker
-  container_name: testdocker 
+testtestdocker:
+  build: . 
+  container_name: testtestdocker 
   environment:
-   - CONTNAME=testdocker
+   - CONTNAME=testtestdocker
   volumes:
    - ./tests/:/tests/:ro
    - .:/docker-file/:ro

@@ -36,3 +36,11 @@ Clone the repository
 
 # Credits
 A lot of inspiration came from here [http://www.unixdaemon.net/tools/testing-dockerfiles-with-serverspec/]
+
+Blog
+Wanted a simple re-usable way to test containers
+Meaning static, unit, runtime
+How to make it work
+How to re-use
+What is really happening
+
